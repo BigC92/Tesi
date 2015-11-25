@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/MacPorts 2015_7)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Tesi.aux
+The style file: alpha.bst
+Database file #1: bibliografia.bib
+Warning--entry type for "OSM" isn't style-file defined
+--line 1 of file bibliografia.bib
+Warning--entry type for "mapbox:showcase" isn't style-file defined
+--line 8 of file bibliografia.bib
+Warning--entry type for "bing:tdf" isn't style-file defined
+--line 23 of file bibliografia.bib
+You've used 4 entries,
+            2543 wiz_defined-function locations,
+            574 strings with 4685 characters,
+and the built_in function-call counts, 1061 in all, are:
+= -- 94
+> -- 32
+< -- 4
++ -- 8
+- -- 8
+* -- 46
+:= -- 172
+add.period$ -- 9
+call.type$ -- 4
+change.case$ -- 20
+chr.to.int$ -- 4
+cite$ -- 4
+duplicate$ -- 44
+empty$ -- 101
+format.name$ -- 16
+if$ -- 220
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 20
+num.names$ -- 12
+pop$ -- 40
+preamble$ -- 1
+purify$ -- 24
+quote$ -- 0
+skip$ -- 47
+stack$ -- 0
+substring$ -- 28
+swap$ -- 4
+text.length$ -- 4
+text.prefix$ -- 4
+top$ -- 0
+type$ -- 32
+warning$ -- 0
+while$ -- 8
+width$ -- 6
+write$ -- 44
+(There were 3 warnings)

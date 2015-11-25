@@ -1,0 +1,20 @@
+\begin{thebibliography}{Map15}
+
+\bibitem[Bin10]{bing:tdf}
+Bing.
+\newblock New bing map app: 2010 tour de france, 2010.
+
+\bibitem[Fou15]{OSM}
+OpenStreetMap Foundation.
+\newblock Openstreetmap, 2015.
+
+\bibitem[Map15]{mapbox:showcase}
+Mapbox.
+\newblock Showcase | mapbox, 2015.
+
+\bibitem[Wik15]{wiki:opensource}
+Wikipedia.
+\newblock Open source --- wikipedia{,} l'enciclopedia libera, 2015.
+\newblock [Online; in data 25-novembre-2015].
+
+\end{thebibliography}

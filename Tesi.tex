@@ -1,6 +1,14 @@
 % Classe appositamente creata per tesi di Ingegneria Informatica all'università Roma Tre
 \documentclass{TesiDiaUniroma3}
 
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{tikz}
+\usepackage{mathtools}
+
+\usepackage[utf8]{inputenc}
 % --- INIZIO dati relativi al template TesiDiaUniroma3
 % dati obbligatori, necessari al frontespizio
 \titolo{Strumenti per la navigazione di mappe geografiche nella vista prospettica}
@@ -11,7 +19,7 @@
 \annoAccademico{2014/2015}
 
 % dati opzionali
-\dedica{Questa \`e la dedica} % solo se nel documento si usa il comando \generaDedica
+\dedica{A mia zia e ai miei nonni,\\perchè anche se da lontano\\mi siete e sarete sempre accanto} % solo se nel documento si usa il comando \generaDedica
 % --- FINE dati relativi al template TesiDiaUniroma3
 
 % --- INIZIO richiamo di pacchetti di utilità. Questi sono un esempio e non sono strettamente necessari al modello per la tesi.
@@ -26,7 +34,6 @@
 \frontmatter
 \generaFrontespizio
 \generaDedica
-\ringraziamenti{capitoli/ringraziamenti}	% inserisce i ringraziamenti e li prende in questo caso da ringraziamenti.tex
 \introduzione{capitoli/introduzione}		% inserisce l'introduzione e la prende in questo caso da introduzione.tex
 \generaIndice
 \generaIndiceFigure
@@ -36,8 +43,7 @@
 % il comando ``capitolo'' ha come parametri:
 % 1) il titolo del capitolo
 % 2) il nome del file tex (senza estensione) che contiene il capitolo. Tale nome \`e usato anche come label del capitolo
-\capitolo{Esempio di Capitolo}{capitoli/esempio-capitolo-1}
-\capitolo{Altro Esempio di Capitolo}{capitoli/esempio-capitolo-2}
+\capitolo{Servizi di visualizzazione di carte geografiche}{capitoli/capitolo-1}
 
 % ----- Parte finale della tesi (obbligatorio)
 \backmatter
@@ -46,5 +52,5 @@
 % Bibliografia con BibTeX (obbligatoria)
 % Non si deve specificare lo stile della bibliografia
 \bibliography{bibliografia} % inserisce la bibliografia e la prende in questo caso da bibliografia.bib
-
+\ringraziamenti{capitoli/ringraziamenti}	% inserisce i ringraziamenti e li prende in questo caso da ringraziamenti.tex
 \end{document}

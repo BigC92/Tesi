@@ -2,6 +2,8 @@
 \select@language {italian}
 \addvspace {10pt}
 \addvspace {10pt}
-\addvspace {10pt}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces SPQR-tree di un grafo. (a) L'albero di allocazione della faccia esterna. (b) Il cammino notevole di cui si parla tanto nella Sezione~\ref {se:prima-sezione}.}}{2}{figure.2.1}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Records di modifica della mappa ad opera di utenti}}{3}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Esempio di mappa stradale di Bing}}{4}{figure.1.2}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Esempio di mappa aerea di Bing}}{4}{figure.1.3}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Esempio di visualizzazione Bird's-eye}}{5}{figure.1.4}
 \addvspace {10pt}
