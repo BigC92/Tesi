@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/MacPorts 2015_7) (preloaded format=latex 2015.11.24)  30 NOV 2015 15:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/MacPorts 2015_7) (preloaded format=latex 2015.11.24)  2 DEC 2015 11:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1198,7 +1198,7 @@ File: figure/uniroma3-logo.eps Graphic file (type eps)
 ] (./capitoli/introduzione.tex) [4
 
 ]
-(./Tesi.toc) [5] (./Tesi.lof) [6
+(./Tesi.toc [5]) [6] (./Tesi.lof) [7
 
 ] (./capitoli/capitolo-1.tex [1
 
@@ -1240,20 +1240,28 @@ Overfull \hbox (5.53366pt too wide) in paragraph at lines 152--153
 
 [16]
 File: figure/staticmap.eps Graphic file (type eps)
- <figure/staticmap.eps>) [17] [18] (./capitoli/capitolo-3.tex) [19
+ <figure/staticmap.eps>) [17] [18] (./capitoli/capitolo-3.tex
+File: figure/rotationcss.eps Graphic file (type eps)
+
+<figure/rotationcss.eps> [19
 
 ]
-(./capitoli/capitolo-4.tex) [20
+File: figure/tiltmap.eps Graphic file (type eps)
+ <figure/tiltmap.eps> [20]) [21]
+(./capitoli/capitolo-4.tex [22
 
-] (./capitoli/capitolo-5.tex) [21
+] [23] [24] [25]
+File: figure/mercatorproj.eps Graphic file (type eps)
+ <figure/mercatorproj.eps>
+[26]) [27] (./capitoli/capitolo-5.tex) [28
 
-]
-(./capitoli/conclusioni.tex) [22
+] (./capitoli/conclusioni.tex)
+[29
 
 
 ] (./Tesi.bbl
 bibitemlist
-) [23
+) [30
 
 ]
 \tf@toc=\write6
@@ -1268,15 +1276,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 59.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
 Package rerunfilecheck Info: File `Tesi.out' has not changed.
-(rerunfilecheck)             Checksum: 7B9D947BA0DAFF08976988F66EFB3967;1103.
+(rerunfilecheck)             Checksum: 98D0B23D10956AA48BED68E3DD247CD4;1470.
  ) 
 Here is how much of TeX's memory you used:
- 22351 strings out of 494186
- 382615 string characters out of 6156913
- 510720 words of memory out of 5000000
- 25296 multiletter control sequences out of 15000+600000
- 20586 words of font info for 47 fonts, out of 8000000 for 9000
+ 22380 strings out of 494186
+ 383057 string characters out of 6156913
+ 511224 words of memory out of 5000000
+ 25319 multiletter control sequences out of 15000+600000
+ 24225 words of font info for 60 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
  60i,12n,54p,2413b,1760s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Tesi.dvi (29 pages, 110276 bytes).
+Output written on Tesi.dvi (37 pages, 141124 bytes).

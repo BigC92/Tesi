@@ -2,7 +2,7 @@
 \select@language {italian}
 \contentsline {chapter}{Introduzione}{iv}{chapter*.2}
 \contentsline {chapter}{Indice}{v}{section*.3}
-\contentsline {chapter}{Elenco delle figure}{vi}{section*.4}
+\contentsline {chapter}{Elenco delle figure}{vii}{section*.4}
 \contentsline {chapter}{\chapternumberline {1}Servizi di visualizzazione di carte geografiche}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}OpenStreetMap}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Bing Maps}{3}{section.1.2}
@@ -12,8 +12,12 @@
 \contentsline {section}{\numberline {2.2}WebGL: Web Graphics Library}{9}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Three.js, la libreria javascript semplificata di grafica 3D}{11}{subsection.2.2.1}
 \contentsline {section}{\numberline {2.3}Google Maps API}{15}{section.2.3}
-\contentsline {chapter}{\chapternumberline {3}Requisiti per un navigatore geografico in 3D}{19}{chapter.3}
-\contentsline {chapter}{\chapternumberline {4}Progetto del navigatore}{20}{chapter.4}
-\contentsline {chapter}{\chapternumberline {5}Verifiche funzionali}{21}{chapter.5}
-\contentsline {chapter}{Conclusioni e sviluppi futuri}{22}{chapter*.5}
-\contentsline {chapter}{Bibliografia}{23}{section*.7}
+\contentsline {chapter}{\chapternumberline {3}Requisiti per un sistema di visualizzazione di mappe in 3D}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}Scopi e modello del progetto}{19}{section.3.1}
+\contentsline {chapter}{\chapternumberline {4}Progetto del sistema di visualizzazione}{22}{chapter.4}
+\contentsline {section}{\numberline {4.1}Modellazione delle informazioni}{22}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Il calcolo dello zoom adatto}{23}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Calcolo dei centri successivi per lo spostamento}{25}{subsection.4.1.2}
+\contentsline {chapter}{\chapternumberline {5}Verifiche funzionali}{28}{chapter.5}
+\contentsline {chapter}{Conclusioni e sviluppi futuri}{29}{chapter*.5}
+\contentsline {chapter}{Bibliografia}{30}{section*.7}
