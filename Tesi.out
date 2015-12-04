@@ -1,6 +1,6 @@
-\BOOKMARK [0][-]{chapter*.2}{Introduzione}{}% 1
-\BOOKMARK [0][-]{section*.3}{Indice}{}% 2
-\BOOKMARK [0][-]{section*.4}{Elenco delle figure}{}% 3
+\BOOKMARK [0][-]{chapter*.1}{Introduzione}{}% 1
+\BOOKMARK [0][-]{section*.2}{Indice}{}% 2
+\BOOKMARK [0][-]{section*.3}{Elenco delle figure}{}% 3
 \BOOKMARK [0][-]{chapter.1}{Servizi di visualizzazione di carte geografiche}{}% 4
 \BOOKMARK [1][-]{section.1.1}{OpenStreetMap}{chapter.1}% 5
 \BOOKMARK [1][-]{section.1.2}{Bing Maps}{chapter.1}% 6
@@ -11,11 +11,17 @@
 \BOOKMARK [2][-]{subsection.2.2.1}{Three.js, la libreria javascript semplificata di grafica 3D}{section.2.2}% 11
 \BOOKMARK [1][-]{section.2.3}{Google Maps API}{chapter.2}% 12
 \BOOKMARK [0][-]{chapter.3}{Requisiti per un sistema di visualizzazione di mappe in 3D}{}% 13
-\BOOKMARK [1][-]{section.3.1}{Scopi e modello del progetto}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.1}{Specifica del problema e modello realizzativo del progetto}{chapter.3}% 14
 \BOOKMARK [0][-]{chapter.4}{Progetto del sistema di visualizzazione}{}% 15
 \BOOKMARK [1][-]{section.4.1}{Modellazione delle informazioni}{chapter.4}% 16
 \BOOKMARK [2][-]{subsection.4.1.1}{Il calcolo dello zoom adatto}{section.4.1}% 17
 \BOOKMARK [2][-]{subsection.4.1.2}{Calcolo dei centri successivi per lo spostamento}{section.4.1}% 18
-\BOOKMARK [0][-]{chapter.5}{Verifiche funzionali}{}% 19
-\BOOKMARK [0][-]{chapter*.5}{Conclusioni e sviluppi futuri}{}% 20
-\BOOKMARK [0][-]{section*.7}{Bibliografia}{}% 21
+\BOOKMARK [1][-]{section.4.2}{Il processamento dei dati e la richiesta della mappa}{chapter.4}% 19
+\BOOKMARK [1][-]{section.4.3}{Proiezione nella vista prospettica, il client Three.js}{chapter.4}% 20
+\BOOKMARK [2][-]{subsection.4.3.1}{Il sistema di movimento}{section.4.3}% 21
+\BOOKMARK [2][-]{subsection.4.3.2}{Il sistema di zoom}{section.4.3}% 22
+\BOOKMARK [0][-]{chapter.5}{Verifiche funzionali}{}% 23
+\BOOKMARK [1][-]{section.5.1}{La form di richiesta}{chapter.5}% 24
+\BOOKMARK [1][-]{section.5.2}{La proiezione su un piano prospettico}{chapter.5}% 25
+\BOOKMARK [0][-]{chapter*.4}{Conclusioni e sviluppi futuri}{}% 26
+\BOOKMARK [0][-]{section*.6}{Bibliografia}{}% 27

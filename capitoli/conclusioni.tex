@@ -1,1 +1,13 @@
-La tesi \`e finita
+L'obbiettivo del tirocinio era quello di creare un sistema di visualizzazione di mappe geografiche le cui caratteristiche fossero molto simili a quelle di un navigatore. Proprio come i navigatori satellitari, infatti, il sistema da me creato permette di visualizzare una mappa su di un piano la cui vista ha un'inclinazione di circa 45 gradi. Il secondo scopo era, inoltre, quello di creare un sistema che consentisse una semplice interazione con l'utente per le azioni di spostamento e zoom.
+
+Il sistema creato non genera eccessivi sovraccarichi dal un punto di vista grafico, essendo presenti sulla scena al più 4 o 5 piani durante gli spostamenti, per mostrare correttamente la maggiore area geografica possibile, evitando soprattutto di lasciare dei punti vuoti nello scorrimento.
+
+La struttura del progetto, infine, non possedendo alcuna componente per il salvataggio delle mappe consente di avere sempre le mappe più aggiornate evitando di dover aggiornare manualmente un eventuale archivio delle stesse. Oltre il fatto che sarebbe stato necessario memorizzare un quantitativo di tile molto alto, essendo questo sempre maggiore in relazione anche al livello di zoom delle tile per ogni livello di zoom avremmo il doppio delle tile rispetto a quello precedente.
+
+Diversi possono essere gli sviluppi futuri di questo progetto, che andrò ad elencare di seguito:
+
+\begin{itemize}
+	\item Aggiunta di un database delle coordinate geografiche, per consentire all'utente di scegliere da un elenco di posizioni più comuni, ad esempio città o luoghi noti, i vertici dell'area da visualizzare;
+	\item Consentire all'utente durante la navigazione di passare dalla visualizzazione della mappa stradale a quella satellitare attraverso un semplice tasto presente sulla scena;
+	\item Utilizzo del progetto come base per lo sviluppo di un sistema di visualizzazione di oggetti o grafi su aree geografiche, come può essere il caso, ad esempio, quello della visualizzazione della topografia di una rete locale.
+\end{itemize}
