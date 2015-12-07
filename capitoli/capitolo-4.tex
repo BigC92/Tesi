@@ -9,6 +9,12 @@ La prima sfida affrontata nel corso dello sviluppo del seguente progetto è stat
 \end{center}
 Il passo in questo è stato abbastanza semplice, perchè essendo il centro di un sistema di riferimento bidimensionale in punto medio tra due punti è la media delle coordinate dei due punti. Affrontando però la questione dello zoom e dello spostamento, la soluzione non è stata altrettanto diretta e semplice, tanto che le questioni saranno affrontate in due paragrafi distinti.
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\textwidth]{figure/centromappa.eps}
+	\caption{Rappresentazione grafica del modello della nostra mappa}
+\end{figure}
+
 \subsection{Il calcolo dello zoom adatto}
 Il calcolo dello zoom è stato il primo problema affrontato nel corso dell'implementazione e della progettazione del progetto. Lo zoom nelle mappe di Google è un valore discreto che varia da 0 a 21 e per comprenderne il funzionamento è stato necessario capire cosa venisse rappresentato ad ogni livello. Nella proiezione adottata da Google al livello 0 l'intero globo viene raffigurato in un'immagine di 256x256 pixels di larghezze e altezza. Questo ha rappresentato un valore di riferimento per lo studio della funzione che calcoli lo zoom di partenza. Andando, infatti, ad analizzare sperimentalmente i successivi livelli di zoom ho visto che ponendo lo zoom a 1, 256 pixels erano diventati troppo pochi per rappresentare l'intero globo. A questo grado di zoom infatti sono necessari esattamente 512 pixels di larghezza e altezza per rappresentare l'intera immagine terrestre, esattamente il doppio. L'ipotesi, dunque, a questo punto formulata vuole che lo zoom non è altro che una progressione geometrica di ragione 2. L'ipotesi è stata successivamente verificata analizzando anche il terzo grado di zoom, nonostante non fosse possibile mostrare un'immagine di 1024 pixels per lato in quanto le API di Google limitano l'utilizzo delle mappe statiche a dimensioni di 640 pixel per lato. È, dunque, possibile riassumere lo zoom di Google con la seguente espressione: 
 \begin{center}
@@ -40,6 +46,11 @@ E' risultato a questo punto quasi immediato calcolare lo zoom necessario a rappr
 
 \end{center}
 Il $\Delta$ della nostra funzione sarà in questo caso la variazione di \textbf{longitudine} tra i due punti richiesti dall'utente. Una variante della stessa proporzione, andrà utilizzata per la latitudine, dove i gradi da rappresentare non sono 360, bensì 180, o meglio per rispettare la proiezione utilizzata da Google 170,1022, perchè i poli in questo tipo di rappresentazione vengono considerati come due punti approssimati all'infinito non saremo quindi in grado di vedere interamente tutti i 180 gradi di latitudine che vanno dal polo nord al polo sud, besì ne verranno raffigurati 85,0511 rispettivamente a nord e a sud dell'equatore.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\textwidth]{figure/calcolitiles.eps}
+	\caption{Rappresentazione grafica dei dati sopra utilizzati per il calcolo}
+\end{figure}
 
 A questo punto, una volta ottenuto il risultato del rapporto, è opportuno calcolare lo zoom, che come abbiamo visto può essere rappresentato come una potenza in base due. Dunque per passare dalla nostra proporzione al livello di zoom richiesto occorrerà eseguire il logaritmo in base due del risultato della proporzione:
 \begin{center}

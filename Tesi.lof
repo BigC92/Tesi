@@ -13,15 +13,17 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Esempio di mappa con angolo di visualizzazione editato nel CSS}}{20}{figure.3.1}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Esempio della funzione tilt sul polo della Vasca Navale}}{21}{figure.3.2}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Rappresentazione della distorsione delle aree geografiche}}{27}{figure.4.1}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Rappresentazione grafica del modello della nostra mappa}}{23}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Rappresentazione grafica dei dati sopra utilizzati per il calcolo}}{25}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Rappresentazione della distorsione delle aree geografiche}}{28}{figure.4.3}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Struttura della form per la richiesta dell'area iniziale}}{39}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Inserimento delle coordinate di Parigi e Madrid}}{40}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Proiezione dell'area tra Parigi (in alto a destra) e Madrid (in basso a sinistra)}}{41}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Proiezione dell'area tra Roma (in alto a sinistra) e Napoli (in basso a destra)}}{41}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Questa \IeC {\`e} la situazione dopo una serie di spostamenti}}{42}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces La scritta dei termini e condizioni di utilizzo e il logo di Google stampati sulla mappa}}{42}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Risultato dell'azione di zoom in sulla mappa}}{43}{figure.5.7}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Risultato dell'azione di zoom out sulla mappa}}{43}{figure.5.8}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Nuovo esempio di spostamento}}{44}{figure.5.9}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Struttura della form per la richiesta dell'area iniziale}}{40}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Inserimento delle coordinate di Parigi e Madrid}}{41}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Proiezione dell'area tra Parigi (in alto a destra) e Madrid (in basso a sinistra)}}{42}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Proiezione dell'area tra Roma (in alto a sinistra) e Napoli (in basso a destra)}}{42}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Questa \IeC {\`e} la situazione dopo una serie di spostamenti}}{43}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces La scritta delle condizioni di utilizzo e il logo di Google stampati sulla mappa}}{43}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Risultato dell'azione di zoom in sulla mappa}}{44}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Risultato dell'azione di zoom out sulla mappa}}{44}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Nuovo esempio di spostamento}}{45}{figure.5.9}
 \addvspace {10pt}

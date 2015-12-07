@@ -19,7 +19,7 @@
 \annoAccademico{2014/2015}
 
 % dati opzionali
-\dedica{A mia zia e ai miei nonni,\\perchè anche se da lontano\\mi siete e sarete sempre accanto} % solo se nel documento si usa il comando \generaDedica
+\dedica{A mia zia,\\ ai miei nonni,\\perchè anche da lontano\\mi siete e sarete sempre accanto} % solo se nel documento si usa il comando \generaDedica
 % --- FINE dati relativi al template TesiDiaUniroma3
 
 % --- INIZIO richiamo di pacchetti di utilità. Questi sono un esempio e non sono strettamente necessari al modello per la tesi.
@@ -33,8 +33,7 @@
 % ----- Pagine di fronespizio, numerate in romano (i,ii,iii,iv...) (obbligatorio)
 \frontmatter
 \generaFrontespizio
-%\generaDedica
-%\ringraziamenti{capitoli/ringraziamenti}	% inserisce i ringraziamenti e li prende in questo caso da ringraziamenti.tex
+\generaDedica
 \introduzione{capitoli/introduzione}		% inserisce l'introduzione e la prende in questo caso da introduzione.tex
 \generaIndice
 \generaIndiceFigure
@@ -56,4 +55,5 @@
 % Bibliografia con BibTeX (obbligatoria)
 % Non si deve specificare lo stile della bibliografia
 \bibliography{bibliografia} % inserisce la bibliografia e la prende in questo caso da bibliografia.bib
+\ringraziamenti{capitoli/ringraziamenti}	% inserisce i ringraziamenti e li prende in questo caso da ringraziamenti.tex
 \end{document}

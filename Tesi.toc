@@ -1,8 +1,8 @@
 \select@language {italian}
 \select@language {italian}
-\contentsline {chapter}{Introduzione}{ii}{chapter*.1}
-\contentsline {chapter}{Indice}{iv}{section*.2}
-\contentsline {chapter}{Elenco delle figure}{vi}{section*.3}
+\contentsline {chapter}{Introduzione}{iii}{chapter*.1}
+\contentsline {chapter}{Indice}{v}{section*.2}
+\contentsline {chapter}{Elenco delle figure}{vii}{section*.3}
 \contentsline {chapter}{\chapternumberline {1}Servizi di visualizzazione di carte geografiche}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}OpenStreetMap}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Bing Maps}{3}{section.1.2}
@@ -17,13 +17,13 @@
 \contentsline {chapter}{\chapternumberline {4}Progetto del sistema di visualizzazione}{22}{chapter.4}
 \contentsline {section}{\numberline {4.1}Modellazione delle informazioni}{22}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Il calcolo dello zoom adatto}{23}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Calcolo dei centri successivi per lo spostamento}{25}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Il processamento dei dati e la richiesta della mappa}{28}{section.4.2}
-\contentsline {section}{\numberline {4.3}Proiezione nella vista prospettica, il client Three.js}{31}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Il sistema di movimento}{34}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Il sistema di zoom}{37}{subsection.4.3.2}
-\contentsline {chapter}{\chapternumberline {5}Verifiche funzionali}{39}{chapter.5}
-\contentsline {section}{\numberline {5.1}La form di richiesta}{39}{section.5.1}
-\contentsline {section}{\numberline {5.2}La proiezione su un piano prospettico}{40}{section.5.2}
-\contentsline {chapter}{Conclusioni e sviluppi futuri}{45}{chapter*.4}
-\contentsline {chapter}{Bibliografia}{47}{section*.6}
+\contentsline {subsection}{\numberline {4.1.2}Calcolo dei centri successivi per lo spostamento}{26}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Il processamento dei dati e la richiesta della mappa}{29}{section.4.2}
+\contentsline {section}{\numberline {4.3}Proiezione nella vista prospettica, il client Three.js}{32}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Il sistema di movimento}{35}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Il sistema di zoom}{38}{subsection.4.3.2}
+\contentsline {chapter}{\chapternumberline {5}Verifiche funzionali}{40}{chapter.5}
+\contentsline {section}{\numberline {5.1}La form di richiesta}{40}{section.5.1}
+\contentsline {section}{\numberline {5.2}La proiezione su un piano prospettico}{41}{section.5.2}
+\contentsline {chapter}{Conclusioni e sviluppi futuri}{46}{chapter*.4}
+\contentsline {chapter}{Bibliografia}{48}{section*.6}
